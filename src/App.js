@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Multipart from "ipfs-api/src/utils/multipart";
+
+console.log(new Multipart());
 
 class App extends Component {
   render() {
